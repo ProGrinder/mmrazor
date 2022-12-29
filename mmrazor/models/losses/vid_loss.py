@@ -9,7 +9,7 @@ from mmrazor.registry import MODELS
 
 @MODELS.register_module()
 class VIDLoss(nn.Module):
-    """"""
+    """<https://arxiv.org/abs/1904.05835>`"""
 
     def __init__(self,
                  num_student_channels: int,
